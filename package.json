@@ -21,5 +21,14 @@
     "Shawn Inder <shawn@vigour.io>"
   ],
   "dependencies": {},
-  "engines": {}
+  "engines": {},
+  "browserify": {
+    "transform": [
+      ["postcssify", {
+        "plugins": [
+          "postcss-cssnext"
+        ]
+      }]
+    ]
+  }
 }
