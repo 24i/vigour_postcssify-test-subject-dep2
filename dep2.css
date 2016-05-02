@@ -1,0 +1,8 @@
+:root {
+  --deptwo: 1px;
+  --common: url('deptwo');
+}
+
+#deptwo {
+  border: var(--deptwo);
+}
