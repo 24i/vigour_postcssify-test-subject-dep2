@@ -20,15 +20,20 @@
   "contributors": [
     "Shawn Inder <shawn@vigour.io>"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "postcssify": "^1.0.11"
+  },
   "engines": {},
   "browserify": {
     "transform": [
-      ["postcssify", {
-        "plugins": [
-          "postcss-cssnext"
-        ]
-      }]
+      [
+        "postcssify",
+        {
+          "plugins": [
+            "postcss-cssnext"
+          ]
+        }
+      ]
     ]
   }
 }
