@@ -21,6 +21,7 @@
     "Shawn Inder <shawn@vigour.io>"
   ],
   "dependencies": {
+    "postcss-cssnext": "^2.5.2",
     "postcssify": "^1.0.11"
   },
   "engines": {},
